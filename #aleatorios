@@ -1,0 +1,18 @@
+// Autor David Pinzón
+
+public class aleatorios {
+
+    public static void main(String[] args) {
+        System.out.println("---------------------------------------");
+        System.out.println("Estos números son producto de tu suerte");
+        System.out.println("---------------------------------------");
+        
+         int n_Aleatorio = (int) Math.floor(Math.random()*10+1);
+
+        int n_aleatorio1 = n_Aleatorio + n_Aleatorio;
+
+        System.out.println(n_aleatorio1);
+            
+        
+    }   
+}
